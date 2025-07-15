@@ -1,0 +1,46 @@
+/* Nav Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #e9d6d6;
+}
+
+.nav-titel {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.nav-titel span {
+    color: rgb(219, 157, 0);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+    font-weight: 50;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: rgb(199, 123, 10);
+}
+
+.nav-list button {
+    padding: 6px 12px;
+    background-color: rgb(219, 124, 0);
+    border-radius: 5px;
+    color: white;
+    border: black 1px solid;
+    cursor: pointer;
+    font-size: 25px;
+}
