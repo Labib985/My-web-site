@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AfoX</title>
     <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles/web.css">
 </head>
-<body class="body-color">
+
+<body class="tiktok-sans-normal">
     <header>
         <nav>
-            <h3 class="nav-titel">A<span>F</span>OX</h3> 
+            <h3 class="nav-titel">A<span>F</span>OX</h3>
             <ul class="nav-list">
                 <li><a class="li-color" href="">Home</a></li>
                 <li><a class="li-color" href="">About</a></li>
@@ -20,13 +28,138 @@
 
             </ul>
         </nav>
-
+        <div class="bannar">
+            <div class="banner-contant">
+                <h2 class="banner-griting">Hey there!</h2>
+                <h1 class="banner-title">I'm Labib</h1>
+                <p class="banner-description">
+                    I'm a passionate and self-driven freelancer with a strong grip on front-end web development,
+                    creative design, and all things digital. Whether you're looking for a stunning website, responsive
+                    UI, or clean code that speaks louder than words — I’ve got you.
+                </p>
+            </div>
+            <img class="pfp" src="images/labib.png" alt="labib">
+        </div>
     </header>
     <main>
+        <section class="about">
+            <h2 class="section-title">About me</h2>
+            <p class="section-descriptions">I'm a self-taught front-end web developer and freelancer with a deep passion
+                for crafting clean, responsive, and visually striking websites. Whether it's a sleek portfolio, a
+                landing page, or an interactive design — I believe in making things not just functional, but
+                beautiful.What started as curiosity soon became obsession — now, turning ideas into elegant digital
+                experiences is what I live for. I combine creativity with code, aesthetics with accessibility, and
+                vision with precision.When I'm not coding, you'll probably find me tweaking designs, vibing to lo-fi
+                beats, or dreaming up my next big project. 🚀</p>
+                <div class="about-items">
+                    <div class="about-item">
+                        <p class="item-title">Name:</p>
+                        <p class="item-description">Labib Abdullah</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">E-mail:</p>
+                        <p class="item-description">labibabdullah206@gmail.com</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Date of Birth:</p>
+                        <p class="item-description">Sep 6,2008</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">From:</p>
+                        <p class="item-description">Bangladesh</p>
+                    </div>
 
+                </div>
+
+        </section>
+
+
+
+        <section>
+            <h2 class="section-title text-center">What I Do</h2>
+            <p class="section-description text-center">From sleek portfolios to dynamic web apps, I turn ideas into interactive realities using HTML, CSS, and JavaScript. User-friendly, fast, and fresh—always.</p>
+            <div class="skill-container">
+                <div class="skill" style="margin-left: 80px;">
+                    <img style="width: 80px;" src="images/icons/html.png" alt="">
+                    <h4 class="skill-title">HTML</h4>
+                    <p class="description">killed in building the structure and layout of web pages using semantic and well-organized HTML5.</p>
+                </div>
+                <div class="skill">
+                    <img style="width: 35px ;" src="images/icons/css.png" alt="">
+                    <h4 class="skill-title">CSS</h4>
+                    <p class="description">Proficient in styling and designing responsive, visually appealing websites with CSS3 and modern layout techniques like Flexbox and Grid.</p>
+                </div>
+                <div class="skill">
+                    <img style="width: 60px;" src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">JavaScript</h4>
+                    <p class="description">Experienced in adding interactivity and dynamic behavior to websites using vanilla JavaScript and DOM manipulation.</p>
+                </div>
+                <div class="skill" style="margin-right: 80px;">
+                    <img style="width: 50px;" src="images/icons/git.png" alt="">
+                    <h4 class="skill-title">Git</h4>
+                    <p class="description">Confident in using Git for version control—tracking changes, managing code efficiently, and collaborating via GitHub.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer-column">
+            <h3 class="section-title">Let's Connect</h3>
+            <p style="color: rgb(105, 105, 105);">Have a project in mind or need a modern, responsive website? I'm a passionate web developer ready to turn your ideas into reality. Whether it's freelancing or collaboration — feel free to reach out.Let's create something awesome together. 🚀</p>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/icons/insta.png" alt=""></a>
+                <a href="https://x.com/" target="_blank"><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Send a Message</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your email">
+                <textarea name="" id="" cols="30" rows="30" placeholder="Write Message"></textarea>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>  
+         <div class="footer-container">
+    <div class="footer-column">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">UI/UX Design</a></li>
+        <li><a href="#">Content Writing</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">E-commerce</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>For Clients</h4>
+      <ul>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>For Freelancers</h4>
+      <ul>
+        <li><a href="#">Join as Developer</a></li>
+        <li><a href="#">Submit Portfolio</a></li>
+        <li><a href="#">Developer Community</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About AFOX</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
 
     </footer>
 </body>
+
 </html>

@@ -1,5 +1,18 @@
+.tiktok-sans-normal{
+    background-color: #534c3d34;
+}
+
+.tiktok-sans-normal {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
 /* Nav Style */
-nav {
+ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +40,7 @@ nav {
     text-decoration: none;
     color: rgb(43, 42, 42);
     font-weight: 50;
-    font-size: 25px;
+    font-size: 22px;
     transition: color 0.3s ease;
 }
 
@@ -42,5 +55,193 @@ nav {
     color: white;
     border: black 1px solid;
     cursor: pointer;
+    font-size: 22px;
+}
+
+/* banner Style */
+
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px 0 300px;
+    align-items: center;
+}
+.banner-griting{
+    color: rgb(63, 63, 63);
+    font-size: 40px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 55px;
+
+}
+.pfp{
+    width: 250px;
+    height: 350px;
+}
+.banner-contant{
+    max-width: 600px;
+}
+.banner-description{
+    font-size: 18px;
+    color: rgb(114, 74, 0);
+}
+
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* section style about */
+.section-title{
     font-size: 25px;
 }
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    color: rgb(7, 14, 31);
+}
+.section-descriptions{
+    color: rgb(82, 82, 82);
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+} r
+.item-title{
+    color: rgb(94, 94, 94);
+
+}
+.text-center{
+    text-align: center;
+}
+.section-description{
+    padding: 0px 300px 0px 300px;
+    color: rgb(65, 65, 65);
+}
+
+/*skill-section*/
+.skill-container{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+}
+.description{
+    color: rgb(82, 82, 82);
+}
+.skill{
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.356);
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+ /* footer style */
+ .footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ footer input[type='text'], footer input[type='email'], footer textarea{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    margin-bottom: 18px;
+    border: none;
+    font-size: 16px;
+ }
+ .btn{
+    padding: 6px 16px;
+    background-color: rgb(219, 124, 0);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+ }
+ body{
+    background-color: rgb(34, 34, 34);
+ }
+/* Footer Style (Updated Clean Version) */
+.footer {
+  background-color: #0e0e0e; /* Black background */
+  padding: 60px 20px;
+  color: #fff;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1dbf73;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #1dbf73;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
